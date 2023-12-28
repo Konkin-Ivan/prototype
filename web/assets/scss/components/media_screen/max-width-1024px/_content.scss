@@ -1,0 +1,25 @@
+.main {
+  margin-top: 10px;
+}
+
+.main_search {
+  margin: 10px;
+}
+
+.main_search_left,
+.main_search_right,
+.main_search_right_input {
+  width: 100%;
+}
+
+.main_search_right {
+  margin-top: 10px;
+}
+
+.main_search_left_button:first-child {
+  margin-right: 10px;
+}
+
+.main_search_left_button {
+  width: calc(50% - 8px);
+}

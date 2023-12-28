@@ -1,0 +1,36 @@
+{
+  "name": "xenlp/pay_car",
+  "authors": [
+    {
+      "name": "Konkin Ivan",
+      "email": "konkin.ivan@yandex.ru"
+    }
+  ],
+  "require": {
+    "phpxmlrpc/phpxmlrpc": "^4.10",
+    "doctrine/orm": "^2.17",
+    "doctrine/dbal": "^3.7",
+    "doctrine/migrations": "^3.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "Http\\": "Http/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^6.3",
+    "phpunit/phpunit": "^10.3",
+    "pestphp/pest": "^2.5"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
